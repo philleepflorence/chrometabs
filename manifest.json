@@ -1,0 +1,10 @@
+{
+  "name": "HTML Tabs",
+  "manifest_version": 2,
+  "description": "Learn HTML upon opening a new tab",
+  "version": "1.0",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "permissions": ["storage"]
+}
